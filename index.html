@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Brauen Blogen</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/flexbox.css">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+            <a class="navbar-brand" href="#">BRAUEN BLOGEN</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Recipes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Beer</a>
+                        <a class="dropdown-item" href="#">Bread</a>
+                        <a class="dropdown-item" href="#">Pastry</a>
+                        <a class="dropdown-item" href="#">Grub</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
+        </nav> <!-- /navbar -->
+
+        <!-- jumbotron -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4 text-center">Exploration of Bier und Brot</h1>
+                <p class="lead text-center">A blog on home-brewing, yeasted baking, and more</p>
+            </div>
+        </div>
+        <div class="container"><!-- /jumbotron -->
+                              
+        <!-- about with 3 main sections -->
+        <div class="container pt-2" id="primaryContent">
+            <div class="row">
+                <div class="col-lg pt-2" id="latestRecipes">
+                    <div class="bg"></div>
+                    <h3 class="mb-4">Latest Recipes</h3>
+                    <div class="item-1">
+                        <a href="#"><h5>Red Ale v.1</h5></a>
+                        <p>Made with roasted barley, the desired color of this beer is ruby red. Only this batch kinda failed.</p>
+                    </div>
+                    <div class="item-2">
+                        <a href="#"><h5>Belgian Tripel</h5></a>
+                        <p>It needs 2 lbs of candy sugar for a 5 gallon batch because this isn't a session, bruh.</p>
+                    </div>
+                    <div class="item-3">
+                        <a href="#"><h5>Creme Brulee Pumpkin Pie</h5></a>
+                        <p>We're gonna break out the blowtorch at the Thanksgiving dinner table.</p>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6 pt-2" id="musings">
+                    <h3 class="mb-4">Musings</h3>
+                    <a href="#"><h5>Secondary ferment or naw?</h5></a>
+                    <p>We look into the pros and cons of tranferring your ferment to a secondary vessel.</p>
+                    <a href="#"><h5>Washing glassware</h5></a>
+                    <p>How you're supposed to wash and store your glassware so you don't do anything funky to the beer!</p>
+                </div>
+                <div class="col-lg col-md-6 pt-2" id="rotation">
+                    <h3 class="mb-4">On Rotation</h3>
+                    <a href="#"><h5>All the saisons!</h5></a>
+                    <p>We are really digging the saison selection at one of our fave restaurants.</p> 
+                    <a href="#"><h5>Ol' reliable</h5></a>
+                    <p>When you only have time for the regular grocery store, and you need to make decisions.</p> 
+                    <a href="#"><h5>Beery brunch oooh</h5></a>
+                    <p>Not beermosas - rather, great draft beer to start the day right.</p> 
+                </div>
+            </div>  
+        </div>
+
+        <!-- footer -->
+        <footer class="container-fluid">
+            <a href="#"><img class="logo mx-auto" src="img/twitter-wrap.png" alt="Twitter Logo"></a>
+            <a href="#"><img class="logo" src="img/ig-wrap.png" alt="Instagram Logo"></a>
+            <p class="mx-auto">&copy; 2018 Pugsheen </p>
+        </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

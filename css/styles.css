@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+.color {
+    color: rgb(150, 84, 64);
+}
+
+/* Layout */
+
+body {
+    background-color: whitesmoke;
+    color: rgb(168, 121, 102);
+}
+
+.navbar {
+    background-color: aliceblue;
+}
+
+.jumbotron {
+    color: whitesmoke;
+    text-shadow: 3px 3px rgb(150, 84, 64);
+    background-image: url('../img/ale1.jpg');
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+}
+
+.midbox {
+    border: 2px solid #000;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+footer {
+    padding-top: 50px;
+}
+/* font */
+h1 {
+    font-size: 2em;
+}
+h3 {
+    color: rgb(150, 84, 64);
+    text-shadow: -1.5px -1.5px whitesmoke;
+}
+
+a:link, a:visited {
+    color: rgba(192, 106, 35, 0.849)
+}
+
+a:hover, a:active {
+    color: whitesmoke;
+    text-shadow: -1px -1px darkred;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1em;
+}
+
+/* Media Queries */
+
+@media (max-width: 576px) {
+    .jumbotron {
+        height: 250px;
+    }
+    
+    .display-4 {
+        display: none;
+    }
+    
+    .lead {
+        padding-top: 100px;
+        align-content: center;
+    }
+
+}
+
+@media (min-width: 767.98px) {
+
+}
+
+@media (min-width: 991.98px) {
+    html {
+        font-size: 1rem;
+      }
+}
+
+@media (min-width: 1199.98px) {
+    html {
+        font-size: 1.25rem;
+      }
+
+}

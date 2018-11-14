@@ -1,0 +1,7 @@
+#primaryContent, footer {
+    display: flex;
+}
+
+#latestRecipes {
+    flex-grow: 1.5;
+}
